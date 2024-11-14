@@ -1,0 +1,54 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:GPS_Speedometer.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="GPS_Speedometer.Views.MainView"
+             x:DataType="vm:MainViewModel">
+	<Design.DataContext>
+		<!-- Sets the DataContext for IDE preview; set actual DataContext in runtime code -->
+		<vm:MainViewModel />
+	</Design.DataContext>
+
+	<Grid Background="#1E1E1E">
+		<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Spacing="20">
+
+			<!-- Title Text -->
+			<TextBlock Text="GPS Speedometer"
+                       FontSize="24"
+                       Foreground="White"
+                       HorizontalAlignment="Center"/>
+
+			<!-- Current Speed Display -->
+			<TextBlock Text="Current Speed:"
+                       FontSize="18"
+                       Foreground="White"
+                       HorizontalAlignment="Center"/>
+
+			<TextBlock Text="{Binding CurrentSpeedText, FallbackValue='0 km/h'}"
+                       FontSize="48"
+                       Foreground="#FF4081"
+                       HorizontalAlignment="Center"/>
+
+			<!-- Distance Display -->
+			<TextBlock Text="Distance Traveled:"
+                       FontSize="18"
+                       Foreground="White"
+                       HorizontalAlignment="Center"/>
+
+			<TextBlock Text="{Binding DistanceText, FallbackValue='0 km'}"
+                       FontSize="36"
+                       Foreground="#FF4081"
+                       HorizontalAlignment="Center"/>
+
+			<!-- Start/Refresh Button -->
+			<Button Content="Start/Refresh"
+                    Width="150"
+                    Height="40"
+                    Command="{Binding RefreshCommand}"
+                    HorizontalAlignment="Center"/>
+
+		</StackPanel>
+	</Grid>
+</UserControl>

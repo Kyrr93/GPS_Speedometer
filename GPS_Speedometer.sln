@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPS_Speedometer", "GPS_Speedometer\GPS_Speedometer\GPS_Speedometer.csproj", "{48C32768-24B7-431B-B032-7FD54C7CD995}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPS_Speedometer.Android", "GPS_Speedometer\GPS_Speedometer.Android\GPS_Speedometer.Android.csproj", "{5744E4DB-FF2F-48AF-A93D-1DC05C10536F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPS_Speedometer.Desktop", "GPS_Speedometer\GPS_Speedometer.Desktop\GPS_Speedometer.Desktop.csproj", "{7F8A964A-B11B-415B-839F-A59085A63E2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPS_Speedometer.iOS", "GPS_Speedometer\GPS_Speedometer.iOS\GPS_Speedometer.iOS.csproj", "{81104313-AFBA-4DB5-BBE2-E6155AC68291}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPS_Speedometer.Browser", "GPS_Speedometer\GPS_Speedometer.Browser\GPS_Speedometer.Browser.csproj", "{2DCEF95C-ABEB-4B36-943B-10D0CFB7DBF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C32768-24B7-431B-B032-7FD54C7CD995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C32768-24B7-431B-B032-7FD54C7CD995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C32768-24B7-431B-B032-7FD54C7CD995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C32768-24B7-431B-B032-7FD54C7CD995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5744E4DB-FF2F-48AF-A93D-1DC05C10536F}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{5744E4DB-FF2F-48AF-A93D-1DC05C10536F}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{5744E4DB-FF2F-48AF-A93D-1DC05C10536F}.Debug|Any CPU.Deploy.0 = Release|Any CPU
+		{5744E4DB-FF2F-48AF-A93D-1DC05C10536F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5744E4DB-FF2F-48AF-A93D-1DC05C10536F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5744E4DB-FF2F-48AF-A93D-1DC05C10536F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7F8A964A-B11B-415B-839F-A59085A63E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8A964A-B11B-415B-839F-A59085A63E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8A964A-B11B-415B-839F-A59085A63E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8A964A-B11B-415B-839F-A59085A63E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81104313-AFBA-4DB5-BBE2-E6155AC68291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81104313-AFBA-4DB5-BBE2-E6155AC68291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81104313-AFBA-4DB5-BBE2-E6155AC68291}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{81104313-AFBA-4DB5-BBE2-E6155AC68291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81104313-AFBA-4DB5-BBE2-E6155AC68291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81104313-AFBA-4DB5-BBE2-E6155AC68291}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2DCEF95C-ABEB-4B36-943B-10D0CFB7DBF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCEF95C-ABEB-4B36-943B-10D0CFB7DBF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCEF95C-ABEB-4B36-943B-10D0CFB7DBF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCEF95C-ABEB-4B36-943B-10D0CFB7DBF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F190E5B-6AAA-4573-95CA-DAE97758F3F0}
+	EndGlobalSection
+EndGlobal
